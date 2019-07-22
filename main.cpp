@@ -90,7 +90,7 @@ int main(int argc, char* argv[]) {
     printf("ip.dip: %d. %d. %d. %d\n", ip->ip_dip[0],ip->ip_dip[1],ip->ip_dip[2],ip->ip_dip[3]);
     printf("tcp.sport: %d\n", (tcp->tcp_sport[0]>>8)|(tcp->tcp_sport[1]<<8));
     printf("tcp.dport: %d\n",  (tcp->tcp_dport[0]>>8)|(tcp->tcp_dport[1]<<8));
-    printf("tcp.data: %c",tcp_data);
+    printf("tcp.data: %s",tcp_data);
 
 
 
